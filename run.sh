@@ -1,0 +1,1 @@
+docker run -it -v ~/Desktop/statsd-docker/statsd.conf.js:/usr/local/statsd/statsd-0.8.0/statsd.conf.js statsd bash
