@@ -120,18 +120,14 @@ Optional Variables:
 */
 
 {
-  graphitePort: 2003,
-  graphiteHost: "127.0.0.1",
   port: 8125,
-  backends: ["./backends/graphite", "./backends/logicmonitor-backend"],
+  backends: ["./backends/logicmonitor-backend"],
   logicmonitor: {
     "company": "feature.logicmonitor.com", /*your company domain name*/
     "uuid": "[generated automatically]",
     "statsdAccessId": "[sync with the statsd account access id]",
     "statsdToken": "[sync with the statsd account access token]",
     "namespace": "[statsd metric's namespace]",
-    "protocol": "https",
-    "port": 443,
     "rejectUnauthorized": "false"
   }
 }
